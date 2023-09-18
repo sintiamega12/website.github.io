@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="anime.ico">
+    <link rel="stylesheet" href="asset/css/indexlogin.css">
+    <title>Halaman Login</title>
+    <style>
+       html{
+        background-image:url(asset/img/langit.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+       }
+    </style>
+</head>
+<body>
+	<form method="post" action="cek_login.php">
+    <section>
+        <div class="from-box">
+          <div class="from-value">
+            <form action="">
+              <h2>Login</h2>
+              <div class="inputbox">
+                <ion-icon name="person-outline"></ion-icon>
+              <input type="username" name="username" required>
+              <label for="">Username</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" name="password" required>
+              <label for="">Password</label>
+            </div>
+            <button>Login</button>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule rc="hsttps://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>			
+	</form>
+</body>
+</html>
